@@ -1,0 +1,101 @@
+.body-section {
+    background: linear-gradient(to bottom, #3b3f48, #191a1d);
+    height: 750px;
+}
+
+.body-section > .top-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.body-section > .top-section > .left-column > .text-one {
+    color: white;
+    font-size: 2.5em;
+    font-weight: lighter;
+    width: 650px;
+    padding: 0px 80px;
+}
+
+.body-section > .top-section > .left-column > .text-two {
+    color: #afb0b0;
+    font-size: 2em;
+    font-weight: 300;
+    width: 630px;
+    padding: 0px 80px;
+}
+
+.body-section > .top-section > .left-column > .button-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2.3em;
+    padding: 40px 90px;
+}
+
+ .body-section > .top-section > .left-column > .button-wrapper > .sign-up {
+    border: #4bce79;
+    border-radius: 3px;
+    border-style: solid;
+    background-color: #4bce79;
+    padding: 10px;
+}
+
+.body-section > .top-section > .left-column > .button-wrapper > .sign-up a {
+   text-decoration: none;
+   color: black;
+}
+
+.body-section > .top-section > .left-column > .button-wrapper > .learn-more {
+    border: #111111;
+    border-radius: 3px;
+    border-style: solid;
+    background-color: #111111;
+    padding: 10px;
+}
+
+.body-section > .top-section > .left-column > .button-wrapper > .learn-more a {
+   text-decoration: none;
+   color: white;
+}
+
+.body-section > .top-section > .image-wrapper {
+    display: grid;
+    grid-template-columns: 2fr;
+    padding-top: 40px;
+}
+
+.body-section > .top-section > .image-wrapper > .image img {
+    width: 600px;
+    height: 100%;   
+}
+
+.body-section > .top-section > .image-wrapper p {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color: white;  
+}
+
+.body-section > .bottom-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.body-section > .bottom-section > .nav-bottom {
+    border: #afb0b0;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #36383f;
+    width: auto;
+    height: auto;
+    padding: 0px 0px;
+}
+
+.body-section > .bottom-section > .nav-bottom p {
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+}
